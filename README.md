@@ -1,4 +1,4 @@
-Amateur Radio Using Digital Modes
+Intro to Digal Modes through Amateur Radio
 =================================
 
 This page is now an archive of a workshop.
