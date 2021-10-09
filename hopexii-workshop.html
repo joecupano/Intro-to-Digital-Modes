@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Amateur Radio Using Digital Modes</title>
+        <meta name="description" content="An interactive workshop in getting familier with Digital Communications.">
+        <style>html{background:#e6e9e9;background-image:linear-gradient(270deg,#e6e9e9 0%,#d8dddd 100%);-webkit-font-smoothing:antialiased}body{background:#fff;box-shadow:0 0 2px rgba(0,0,0,.06);color:#545454;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;margin:0 auto;max-width:800px;padding:2em 2em 4em}h1,h2,h3,h4,h5,h6{color:#222;font-weight:600;line-height:1.3}h2{margin-top:1.3em}a{color:#0083e8}b,strong{font-weight:600}samp{display:none}img{animation:colorize 2s cubic-bezier(0,0,.78,.36) 1;background:transparent;border:10px solid rgba(0,0,0,.12);border-radius:4px;display:block;margin:1.3em auto;max-width:95%}@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}</style>
+</head>
+<body>
+<script data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://cupano.com/hopexii-workshop/','8Xxa2XQLv9',true,false,'29MYtSIJrWQ');
+//]]></script><img alt="HOPE XII - The Circle of HOPE" src="hopexii-workshop_files/hopexii_logo_192x192.png" data-pagespeed-url-hash="884733531" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<h1>Amateur Radio Using Digital Modes</h1>
+Updated 24 July 2018
+<p>
+</p><h2>Thank You!</h2>
+<p>
+    Thank you to all those who attended the <a href="https://www.hope.net/workshops.html#-amateur-radio-using-digital-modes-">Amateur Radio Using Digital Modes workshop</a> at <a href="https://xii.hope.net/">HOPE XII</a>.
+I hope the workshop met your expectation. I'm interested in hearing your feedback on what you liked,
+    disliked, wanted to see more or less of, etc via <a href="https://goo.gl/forms/kXI8qvhOs0i4AKhr1">this short survey</a> - no personal identifying info asked. If you would rather send me an EMAIL, my EMAIL address is noted further down this page.
+</p><p>
+This page is now an archive of the workshop. 
+</p><h2>Abstract</h2>
+<p>
+You want to play with wireless communications and heard getting an
+Amateur Radio license expands the spectrum available to you to
+transmit on? That’s great but experimenting is all you want to do
+and any communication with another “ham” you would like to keep
+it “short and sweet” and to the experiment at hand. Playing with the various digital modes
+of communications used in Amateur Radio can be a good starting point
+to ease into the hobby both cheaply and at a comfort zone of human
+interaction desired.
+</p>
+<p>
+This workshop will introduce various digital mode communications used in
+Amateur Radio using a simple setup they can build with a laptop, open
+source software, and around $65 USD in hardware. Note the following:
+</p>
+<ul>
+	<li>
+    The activities being performed during this workshop require a FCC Amateur Radio Operator license.
+    </li>
+    <li>
+    Students are expected to have an FCC issued Amateur Radio Operator license and purchase the hardware listed at this <a href="https://www.amazon.com/ideas/amzn1.account.AH5S4BJ5PPL4D3HWHTUP4QXWMPKQ/4KZLNKQWCLE?ref=idea_share">Amazon
+	Idea List link</a> prior to the workshop.
+    </li>
+    <li>
+    Insure your <a href="BaoFeng_UV-5R_Manual.pdf">Baofeng UV-5R</a>
+ is FULLY CHARGED PRIOR to the workshop. It supposedly takes FIVE HOURS 
+to re-charge a dead battery with the standard charger though personal 
+experience has been much shorter.
+    </li>
+    <li>
+    We will have a couple of piece of extra radio equipment for use by 
+those without an FCC issued Amateur Radio operator license under the 
+supervision of an FCC issued Amateur Radio operator serving as control 
+operator per FCC regulations.
+    </li>
+</ul>
+<p>
+</p><h2>Presentation</h2>
+<p>
+    <a href="Amateur-Radio-Using-Digital-Modes_Lecture_v2-0.pdf">Lecture source material</a> and <a href="Amateur-Radio-Using-Digital-Modes_Presentation_v2-0.pdf">slides</a> used for the workshop.
+</p>
+<h2>Lab Exercises</h2>
+<p>
+While the software used in the workshop is cross-platform, all lab 
+exercises have been documented and tested with Windows and Linux (Debian
+ variant) platforms only. Mac OSX testing was performed but not 
+documented. Any OS specifics and/or exceptions are called out in the 
+labs. Lab material details will be posted on day of workshop.
+</p><ul>
+	<li>
+        <a href="Amateur-Radio-Using-Digital-Modes_Lab1_v2-0.pdf">Lab 1: Setting up the Radio</a>
+    </li>
+    <li>
+        <a href="Amateur-Radio-Using-Digital-Modes_Lab2_v2-0.pdf">Lab 2: Setting up the USB Audio</a>
+	</li>
+    <li>
+        <a href="Amateur-Radio-Using-Digital-Modes_Lab3_v2-0.pdf">Lab 3: Set up Digital Mode Software</a>
+    </li>
+    <li>
+    <a href="Amateur-Radio-Using-Digital-Modes_Lab4_v2-0.pdf">Lab 4: First Contact</a>
+    </li>
+    <li>
+        <a href="Amateur-Radio-Using-Digital-Modes_Lab5_v2-0.pdf">Lab 5: Experimentation</a>
+    </li>
+</ul>
+<p>
+</p><h2>Questions</h2>
+<p>
+Any questions can be directed to consigliere AT cupano DOT com
+</p><p>
+73,
+</p><p>
+</p><p>
+- Joe, NE2Z
+    
+</p>
+
+
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 03:53:11 May 23, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:18:28 Sep 05, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 181.95
+  PetaboxLoader3.datanode: 52.412 (4)
+  exclusion.robots: 0.308
+  LoadShardBlock: 154.729 (3)
+  PetaboxLoader3.resolve: 165.748
+  RedisCDXSource: 0.866
+  exclusion.robots.policy: 0.287
+  CDXLines.iter: 21.3 (3)
+  load_resource: 214.951
+  esindex: 0.021
+-->
